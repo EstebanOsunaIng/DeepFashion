@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #3b3b3b;
+}
+header{
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+    nav.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .logo {
+        display: flex; 
+        color: #000000;
+    }
+
+    ul.links {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    ul.links a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    img.img_iniciar {
+        width: 42px;
+    }
+
+
+    /* main*/
+
+    .register-caja  {
+        background-image: url( "../Register/img-register/fondomodelo.png");
+        width: 100%;
+        height: 832px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cuadro {
+        background-color: white;
+        width: 400px;
+        height: 516px;
+        padding: 30px;
+        border-radius: 30px;
+        margin: 50px;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+    }
+
+    img.logo-img {
+        width: 220px;
+        margin-left: -82px;
+        margin-top: -44px;
+    }
+
+    .cuadro h2 {
+        font-size: 21px;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    p.correo-electronico {
+        margin-left: 52px;
+        margin-top: 46px;
+        margin-bottom: -20px;
+        font-size: 12px;
+    }
+
+    button.boton-correo {
+        width: 69%;
+        padding: 10px;
+        display: flex;
+        margin-bottom: 9px;
+        background-color: white;
+        margin-left: 63px;
+        margin-top: 20px;
+        height: 38px;
+        margin-left: 50px;
+    }
+
+    a.olvidaste-contra {
+        font-size: 13px;
+        margin-left: 52px;
+    }
+
+    p.condiones {
+        margin-top: 88px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    button.crear {
+        width: 97px;
+        height: 28px;
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 30px;
+    }
+
+    button.siguiente {
+        width: 97px;
+        height: 28px;
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 75px;
+    }
+
+    ul.opcines {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+
+
+    /*footer*/
+
+    footer{
+        padding: 2px;
+        background-color: #EAE0D5;
+    }
+
+    .footer-caja {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .log-img {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        height: 349px;
+    }
+
+    img.logo-footer {
+        width: 342px;
+        margin-left: -101px;
+        padding: 15px;
+    }
+
+    .iconos {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: -50px;
+    }
+
+    li.footer-li {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .enlace {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    h4.enlace1 {
+        display: flex;
+        margin-top: 68px;
+    }
+
+    ul.enlaces {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: -77px;
+    }
+
+    .caja-footer3 {
+        width: 267px;
+        height: 324px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 30px;
+    }
+
+    h4.redes-s {
+        margin-top: -110px;
+    }
+
+    img.img-red1 {
+        width: 52px;
+        height: 48px;
+        margin-left: -180px;
+    }
+
+    img.img-red2 {
+        width: 33px;
+        height: 31px;
+    }
+
+    img.img-red3 {
+        width: 38px;
+        height: 38px;
+    }
+
+    img.img-red4 {
+        width: 65px;
+        height: 61px;
+    }
+
+
+    .qr {
+        display: flex;
+        flex-direction: column;
+        justify-content: inherit;
+        margin-top: 20px;
+        width: 167px;
+        height: 297px;
+    }
+
+    h4.titleqr {
+        margin-top: 107px;
+        margin-left: 50px;
+    }
